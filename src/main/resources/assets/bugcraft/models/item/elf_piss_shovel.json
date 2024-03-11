@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "bugcraft:item/elf_piss_shovel"
+  }
+}

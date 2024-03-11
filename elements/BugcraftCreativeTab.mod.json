@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "Bugcraft Creative Tab",
+    "icon": {
+      "value": "CUSTOM:TheodonStick"
+    },
+    "showSearch": true
+  }
+}

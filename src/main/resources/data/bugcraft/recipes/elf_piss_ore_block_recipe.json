@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "bugcraft:elf_piss_dust"
+    }
+  },
+  "result": {
+    "item": "bugcraft:elf_piss_block",
+    "count": 1
+  }
+}

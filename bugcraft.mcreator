@@ -1,0 +1,558 @@
+{
+  "mod_elements": [
+    {
+      "name": "BugcraftCreativeTab",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bugcraft_creative_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TheodonStickRightclicked",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theodon_stick_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bugcraft/procedures/TheodonStickRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheodonStick",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theodon_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bugcraft/models/item/theodon_stick.json",
+          "src/main/java/net/mcreator/bugcraft/item/TheodonStickItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LapisArmor",
+      "type": "armor",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bugcraft/models/item/lapis_armor_helmet.json",
+          "src/main/resources/assets/bugcraft/models/item/lapis_armor_chestplate.json",
+          "src/main/resources/assets/bugcraft/models/item/lapis_armor_leggings.json",
+          "src/main/java/net/mcreator/bugcraft/item/LapisArmorItem.java",
+          "src/main/resources/assets/bugcraft/models/item/lapis_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "LapisArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bugcraft/recipes/lapis_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LapisArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bugcraft/recipes/lapis_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LapisArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bugcraft/recipes/lapis_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LapisArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bugcraft/recipes/lapis_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Elf_PissDust",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elf_piss_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bugcraft/item/Elf_PissDustItem.java",
+          "src/main/resources/assets/bugcraft/models/item/elf_piss_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "Elf_PissOre",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elf_piss_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bugcraft/models/block/elf_piss_ore.json",
+          "src/main/resources/data/bugcraft/worldgen/placed_feature/elf_piss_ore.json",
+          "src/main/java/net/mcreator/bugcraft/block/Elf_PissOreBlock.java",
+          "src/main/resources/data/bugcraft/forge/biome_modifier/elf_piss_ore_biome_modifier.json",
+          "src/main/resources/assets/bugcraft/blockstates/elf_piss_ore.json",
+          "src/main/resources/assets/bugcraft/models/item/elf_piss_ore.json",
+          "src/main/resources/data/bugcraft/worldgen/configured_feature/elf_piss_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Elf_PissBlock",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elf_piss_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bugcraft/models/item/elf_piss_block.json",
+          "src/main/resources/assets/bugcraft/models/block/elf_piss_block.json",
+          "src/main/resources/assets/bugcraft/blockstates/elf_piss_block.json",
+          "src/main/java/net/mcreator/bugcraft/block/Elf_PissBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Elf_PissOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elf_piss_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bugcraft/recipes/elf_piss_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Elf_PissBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elf_piss_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bugcraft/recipes/elf_piss_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Elf_PissOreSmelting",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elf_piss_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bugcraft/recipes/elf_piss_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Elf_PissPickaxe",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elf_piss_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bugcraft/item/Elf_PissPickaxeItem.java",
+          "src/main/resources/assets/bugcraft/models/item/elf_piss_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Elf_PissAxe",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elf_piss_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bugcraft/item/Elf_PissAxeItem.java",
+          "src/main/resources/assets/bugcraft/models/item/elf_piss_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "Elf_PissSword",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elf_piss_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bugcraft/models/item/elf_piss_sword.json",
+          "src/main/java/net/mcreator/bugcraft/item/Elf_PissSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Elf_PissShovel",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elf_piss_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bugcraft/item/Elf_PissShovelItem.java",
+          "src/main/resources/assets/bugcraft/models/item/elf_piss_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "Elf_PissHoe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elf_piss_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bugcraft/item/Elf_PissHoeItem.java",
+          "src/main/resources/assets/bugcraft/models/item/elf_piss_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Elf_PissPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elf_piss_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bugcraft/recipes/elf_piss_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Elf_PissAxeRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elf_piss_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bugcraft/recipes/elf_piss_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Elf_PissSwordRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elf_piss_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bugcraft/recipes/elf_piss_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Elf_PissShovelRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elf_piss_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bugcraft/recipes/elf_piss_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Elf_PissHoeRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elf_piss_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bugcraft/recipes/elf_piss_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Elf_PissArmor",
+      "type": "armor",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elf_piss_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bugcraft/item/Elf_PissArmorItem.java",
+          "src/main/resources/assets/bugcraft/models/item/elf_piss_armor_helmet.json",
+          "src/main/resources/assets/bugcraft/models/item/elf_piss_armor_boots.json",
+          "src/main/resources/assets/bugcraft/models/item/elf_piss_armor_leggings.json",
+          "src/main/resources/assets/bugcraft/models/item/elf_piss_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Elf_PissArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elf_piss_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bugcraft/recipes/elf_piss_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Elf_PissArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elf_piss_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bugcraft/recipes/elf_piss_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Elf_PissArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elf_piss_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bugcraft/recipes/elf_piss_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Elf_PissArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elf_piss_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bugcraft/recipes/elf_piss_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TheodonSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theodon_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bugcraft/procedures/TheodonSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheodonSword",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theodon_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bugcraft/models/item/theodon_sword.json",
+          "src/main/java/net/mcreator/bugcraft/item/TheodonSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BugcraftAdvancement",
+      "type": "achievement",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bugcraft_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bugcraft/advancements/bugcraft_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "Shitter",
+      "type": "livingentity",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shitter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bugcraft/entity/ShitterEntity.java",
+          "src/main/resources/assets/bugcraft/models/item/shitter_spawn_egg.json",
+          "src/main/resources/data/bugcraft/forge/biome_modifier/shitter_biome_modifier.json",
+          "src/main/java/net/mcreator/bugcraft/client/renderer/ShitterRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "ShitterEntityIsHurt",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shitter_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bugcraft/procedures/ShitterEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.bugcraft.elf_piss_dust": "Elf_Piss",
+      "item_group.bugcraft.bugcraft_creative_tab": "Bugcraft Creative Tab",
+      "item.bugcraft.theodon_sword": "Theodon Sword",
+      "block.bugcraft.elf_piss_block": "Block of Elf_Piss",
+      "item.bugcraft.elf_piss_shovel": "Elf_Piss Shovel",
+      "item.bugcraft.elf_piss_armor_chestplate": "Elf_Piss Chestplate",
+      "item.bugcraft.elf_piss_armor_leggings": "Elf_Piss Leggings",
+      "entity.bugcraft.shitter": "Shitter",
+      "item.bugcraft.lapis_armor_chestplate": "Lapis Chestplate",
+      "item.bugcraft.lapis_armor_helmet": "Lapis Helmet",
+      "item.bugcraft.elf_piss_armor_boots": "Elf_Piss Boots",
+      "item.bugcraft.shitter_spawn_egg": "Shitter Spawn Egg",
+      "item.bugcraft.elf_piss_hoe": "Elf_Piss Hoe",
+      "block.bugcraft.elf_piss_ore": "Elf_Piss Ore",
+      "item.bugcraft.theodon_stick": "Theodon Stick",
+      "advancements.bugcraft_advancement.descr": "You Have Joined Hell",
+      "item.bugcraft.lapis_armor_boots": "Lapis Boots",
+      "item.bugcraft.elf_piss_pickaxe": "Elf_Piss Pickaxe",
+      "item.bugcraft.lapis_armor_leggings": "Lapis Leggings",
+      "item.bugcraft.elf_piss_armor_helmet": "Elf_Piss Helmet",
+      "item.bugcraft.elf_piss_axe": "Elf_Piss Axe",
+      "item.bugcraft.elf_piss_sword": "Elf_Piss Sword",
+      "advancements.bugcraft_advancement.title": "Bugcraft Advancement"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "bugcraft",
+    "modName": "BugCraft",
+    "version": "1.0.0",
+    "author": "Student, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.bugcraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

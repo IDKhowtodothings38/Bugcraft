@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "bugcraft:elf_piss_ore",
+  "step": "underground_ores"
+}

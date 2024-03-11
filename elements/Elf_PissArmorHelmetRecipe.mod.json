@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Elf_PissDust"
+      },
+      {
+        "value": "CUSTOM:Elf_PissDust"
+      },
+      {
+        "value": "CUSTOM:Elf_PissDust"
+      },
+      {
+        "value": "CUSTOM:Elf_PissDust"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Elf_PissDust"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Elf_PissArmor.helmet"
+    },
+    "name": "elf_piss_armor_helmet_recipe",
+    "namespace": "mod"
+  }
+}
